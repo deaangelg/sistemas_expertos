@@ -1,0 +1,20 @@
+Si el buffer tiene espacio disponible y el producto A esta listo entonces el producto A ingresa al buffer
+Buffer lleno o agregar producto
+Si el buffer esta vacio y no hay productos en cola entonces no se puede procesar nada
+No Buffer  vacio y se procesa el producto mas antiguo
+Producto mas antiguo se ha removido y se registra un producto procesado
+Si el buffer lleno y no maquina de salida  lista entonces linea detenida
+Si se detecta un error en la linea entonces la linea se detiene
+Si no hay espacio en el buffer o la linea esta detenida entonces no se puede ingresar un producto
+Si producto A listo o producto B en cola entonces no buffer  vacio
+Si el buffer esta lleno entonces no hay espacio disponible
+Si la linea operativa y espacio en buffer entonces no buffer  lleno
+Si el buffer esta vacio y la maquina de salida esta lista entonces se genera una alerta
+Si no buffer  lleno y el producto B esta en cola entonces se ingresa el producto B
+Si buffer vacio y maquina de salida lista entonces alerta generada
+Si el buffer esta lleno y se detecta un error entonces se detiene la produccion
+Si maquina de salida lista y no buffer  vacio entonces procesar producto
+Si el buffer esta vacio entonces la produccion se detiene
+Si error detectado o buffer lleno entonces alerta generada
+Si no productos en cola y buffer vacio entonces no se puede continuar
+Si producto A listo y espacio en buffer entonces ingresar producto A
